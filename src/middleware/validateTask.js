@@ -15,6 +15,7 @@ export const validateTask = [
     .optional()
     .isBoolean()
     .withMessage('completed must be true or false'),
+    
 
   checkValidationResults,
 ];
